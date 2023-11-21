@@ -24,11 +24,11 @@ Following is an example of a command.
 
 # Explanation of code
 
--> First, the program is reading the content of both files.
+-> First, the program reads the content of both files.
 -> In the next phase, I am removing the bibliography from the content. Subsequently, references that are taken from other's work will be removed through the function name "remove_ref".
--> After all of this, all the stop words will be removed from the data as well as special characters do not have any specific important meaning therefore, those special characters
+-> After all of this, all the stop words will be removed from the data as well and special characters will not have any specific important meaning therefore, those special characters
 can be removed too. 
--> Now, Rabin-Karp has been applied to the clean data. This is an algorithm that can search patterns using the hash value. Further detail about the algorithm can be found here (https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm).
+-> Now, Rabin-Karp has been applied to the clean data. This is an algorithm that can search patterns using the hash value. Further details about the algorithm can be found here (https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm).
 -> Rabin-Karp requires the size of n-gram (in code it is n_gram with the value of 5) which is a parameter. Its value can be between 3 to 6. 
 -> Then, the similarity of both data files has been calculated in percentage using the following equation.
 -> Equation = ((2 * (length of common hash values of both data files))/ (count of different hashes of data file 1 + count of different hashes of data file 2)) * 100

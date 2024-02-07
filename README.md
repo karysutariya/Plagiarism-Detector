@@ -4,7 +4,7 @@ Plagiarism Detection
 by Kary Sutariya (40193909)
 M.A.C.S, Concordia University.
 
-This project is based on Python language. 
+This project is based on C++ language. 
 
 # Requirements
 1. C++
